@@ -23,42 +23,29 @@
 	</table>
 	<table border="2" class="table table-bordered">
 		<thead>
-			<tr>
-				<th><p id="totalNum"></p></th>
-				<th><button class="Product_Type" id="sort">Type</button>
-					<!-- <form class="columnSearch"> -->
-						<input id="type" class="columnSearchInput" type="text" placeholder="" value="">
-						<!-- <button class="" type="submit">Search</button> -->
-					<!-- </form></th> -->
-				<th><button class="Product_ID" id="sort">ID</button>
-					<!-- <form class="columnSearch"> -->
-						<input id="id" class="columnSearchInput" type="text" placeholder="" value="">
-						<!-- <button class="" type="submit">Search</button> -->
-					<!-- </form></th> -->
-				<th><button class="Product_Name" id="sort">Name</button>
-					<!-- <form class="columnSearch"> -->
-						<input id="name" class="columnSearchInput" type="text" placeholder="" value="">
-						<!-- <button class="" type="submit">Search</button> -->
-					<!-- </form></th> -->
-				<th><button class="Product_Stock" id="sort">Stock</button>
-					<!-- <form class="columnSearch"> -->
-						<input id="stock" class="columnSearchInput" type="text" placeholder="" value="">
-						<!-- <button class="" type="submit">Search</button> -->
-					<!-- </form></th> -->
-				<th><button class="Product_Cost" id="sort">Buy</button>
-					<!-- <form class="columnSearch"> -->
-						<input id="cost" class="columnSearchInput" type="text"	placeholder="" value="">
-						<!-- <button class="" type="submit">Search</button> -->
-					<!-- </form></th> -->
-				<th><button class="Product_Price" id="sort">Sell</button>
-					<!-- <form class="columnSearch"> -->
-						<input id="price" class="columnSearchInput" type="text" placeholder="" value="">
-						<!-- <button class="" type="submit">Search</button> -->
-					<!-- </form></th> -->
-				<th>Image</th>
-			</tr>
-
-		</thead>
+				<tr>
+					<th><p id="totalNum"></p></th>
+					<th><button class="product_Type" id="sort">Type</button> <input
+						id="type" class="columnSearchInput" type="text" placeholder=""
+						value=""></th>
+					<th><button class="product_ID" id="sort">ID</button> <input
+						id="id" class="columnSearchInput" type="text" placeholder=""
+						value=""></th>
+					<th><button class="product_Name" id="sort">Name</button> <input
+						id="name" class="columnSearchInput" type="text" placeholder=""
+						value=""></th>
+					<th><button class="product_Stock" id="sort">Stock</button> <input
+						id="stock" class="columnSearchInput" type="text" placeholder=""
+						value=""></th>
+					<th><button class="product_Cost" id="sort">Buy</button> <input
+						id="cost" class="columnSearchInput" type="text" placeholder=""
+						value=""></th>
+					<th><button class="product_Price" id="sort">Sell</button> <input
+						id="price" class="columnSearchInput" type="text" placeholder=""
+						value=""></th>
+					<th>Image</th>
+				</tr>
+			</thead>
 		<tbody id="resultTable"></tbody>
 	</table>
 	</div>

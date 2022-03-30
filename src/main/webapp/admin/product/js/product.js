@@ -91,7 +91,7 @@ function showData(data) {
 
 function ultraFuckingSearch() {
 	let tempData = rawData
-	const KEY = ["", "Product_ID", "", "Product_Stock", "Product_Cost", "Product_Price",]
+	const KEY = ["", "product_ID", "", "product_Stock", "product_Cost", "product_Price"]
 	for (let k = 0; k < columnSearchInputs.length; k++) {
 
 		if (columnSearchInputs[k].value !== "") {
